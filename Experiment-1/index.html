@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Registration Form</title>
+</head>
+<body>
+
+  <h2>Student Registration Form</h2>
+
+  <form>
+
+    <b>Name:</b><br>
+    <input type="text" name="name" placeholder="Enter your name" required pattern="[A-Za-z ]{1,30}" title="Only letters, 1-30 characters"><br><br>
+
+    <b>Email:</b><br>
+    <input type="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <b>Age:</b><br>
+    <input type="number" name="age" placeholder="Enter your age" required min="10" max="100"><br><br>
+
+    <b>Phone Number:</b><br>
+    <input type="tel" name="phone" placeholder="Enter 10-digit number" required pattern="\d{10}" title="10-digit number only"><br><br>
+
+    <button type="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>
